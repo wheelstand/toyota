@@ -86,18 +86,7 @@ WSGI_APPLICATION = 'toyota.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.8/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'db_toyota',
-        'USER': 'pg_toyota',
-        'PASSWORD': 'wh33ler!',
-        'HOST':'159.203.25.133',
-        'PORT': '5432',
-    }
-}
 
-'''
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
